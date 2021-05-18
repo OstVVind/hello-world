@@ -1,0 +1,9 @@
+x = int(input())
+h = int(input())
+m = int(input())
+h = h * 60
+m = h + m
+a = ((x+m) // 60)
+b = ((x+m) % 60)
+print (a)
+print (b)
