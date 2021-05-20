@@ -1,0 +1,20 @@
+#Resident of the country of Malevia often experiment with room layouts. 
+#Rooms are triangilar. rectangular and round. To quickly calculate the living space, you need to write a program, 
+#the input of which is the type of room shape and the corresponding parameters, which would display the area of the resulting room.
+#For π in the country of Malevia, use the value 3.14.
+figure = str(input())
+if figure == str('треугольник'):
+    a = float(input())
+    b = float(input())
+    c = float(input())
+    p = ((a+b+c)/2)
+    s = (p * (p-a)*(p-b)*(p-c))**0.5
+    print (s)
+elif figure == str ('прямоугольник'):
+    a = float(input())
+    b = float(input())
+    print (a*b)
+elif figure == str ('круг'):
+    r = float(input())
+    pi = 3.14
+    print (3.14 *(r)**2)
