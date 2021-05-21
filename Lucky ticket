@@ -1,0 +1,7 @@
+a, b, c, d, f, g = list(map(int, input()))
+summ1 = a+b+c
+summ2 = d+f+g
+if summ1 == summ2: 
+    print("Счастливый")
+else:
+    print("Обычный")
